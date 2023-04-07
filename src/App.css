@@ -1,0 +1,277 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30b11f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #237b17;
+}
+
+@font-face {
+  font-family: "DM Sans Regular";
+  src: url('../public/fonts/DMSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "DM Sans Bold";
+  src: url('../public/fonts/DMSans-Bold.ttf') format('truetype');
+}
+
+body {
+  background-image: url("public/images/background.png");
+  background-repeat: repeat;
+  font-family: "DM Sans Regular";
+  color: #ffffff;
+  height: 937px;
+ 
+}
+
+#text1 {
+  position: absolute;
+  text-align: left;
+  margin-left: 100px;
+  top: 20px;
+  font-size: 80px;
+  font-family: "DM Sans Bold";
+}
+
+#sex{
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  font-size: 20px;
+  border: none;
+}
+
+#piece {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  font-size: 20px;
+}
+
+#season {
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  font-size: 20px;
+  border: none;
+}
+
+#designinput {
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  font-size: 20px;
+  width: 400px;
+  color: #747474;
+}
+
+#colorinput{
+  position: absolute;
+  left: 550px;
+  top: 250px;
+  font-size: 20px;
+  width: 275px;
+  color:#6b6b6b;
+}
+
+#submit {
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  font-size: 20px;
+  width: 200px;
+  color: #ffffff;
+  background-color: #30b11f;
+  font-family: "DM Sans Bold";
+  border: none;
+}
+
+#submit:hover {
+  background-color: #268e19;
+}
+
+#imageOutput {
+  position: absolute;
+  left: 100px;
+  top: 375px;
+  width: 512px;
+  height: 512px;
+  border: none;
+  pointer-events: none;
+}
+
+#placeholder {
+  position: absolute;
+  margin-left: 0px;
+  padding: 0px;
+  top: 375px;
+  width: 512px;
+  height: 512px;
+  border: none;
+  left: 100px;
+}
+
+@media screen and (max-width: 1263px) {
+  #sex {
+    top: 250px;
+  }
+
+  #season{
+    top: 250px;
+  }
+
+  #piece {
+      top: 250px;
+  }
+
+  #designinput {
+      top: 300px;
+  }
+
+  #colorinput {
+    top: 300px;
+  }
+
+  #submit {
+    top: 350px;
+  }
+
+  #imageOutput {
+    top: 425px;
+    width: 85%;
+    height: auto;
+  }
+
+  #placeholder{
+    width: 85%;
+    top: 425px;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  #sex {
+    top: 300px;
+  }
+
+  #season{
+    top: 300px;
+    left: 300px;
+  }
+
+  #piece {
+    left: 100px;
+    top: 350px;
+  }
+
+  #designinput {
+    top: 400px;
+  }
+
+  #colorinput {
+    top: 450px;
+    left: 100px;
+  }
+
+  #submit {
+    top: 500px;
+  }
+
+  #imageOutput {
+    top: 575px;
+    width: 85%;
+    height: auto;
+  }
+
+  #placeholder{
+    top: 575px;
+    width: 85%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #sex {
+    top: 350px;
+  }
+
+  #season{
+    top: 350px;
+  }
+
+  #piece {
+    top: 400px;
+  }
+
+  #designinput {
+    top: 450px;
+  }
+
+  #colorinput {
+    top: 500px;
+  }
+
+  #submit {
+    top: 550px;
+  }
+
+  #imageOutput {
+    top: 625px;
+    width: 85%;
+    height: auto;
+  }
+
+  #placeholder{
+    top: 625px;
+    width: 85%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 603px) {
+  #sex {
+    top: 450px;
+  }
+
+  #season{
+    top: 450px;
+    left: 275px;
+  }
+
+  #piece {
+    top: 500px;
+  }
+
+  #designinput {
+    top: 550px;
+    width: 300px;
+  }
+
+  #colorinput {
+    top: 600px;
+  }
+
+  #submit {
+    top: 650px;
+  }
+
+  #imageOutput {
+    top: 725px;
+    width: 85%;
+    height: auto;
+  }
+
+  #placeholder{
+    top: 725px;
+    width: 85%;
+    height: auto;
+  }
+}
